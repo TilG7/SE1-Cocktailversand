@@ -12,7 +12,7 @@ Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäte
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das von <Team> entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das System Liefercolada, das vom Team 3 Promille entwickelt wird. Das System wird es dem barbesitzer in der Neustadt erlauben, unseren Onlineshop zu nutzen, um damit jeden auch während Pandemien zu erreichen / den Zugang zu den Cocktails zu erleichtern / eigene Kreationen zu ermöglichen.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -34,13 +34,13 @@ Siehe <<#glossary, Glossar>>.
 
 [cols="1,3"]
 |===
-| Für | [Zielkunde / Persona]
-| der / die | [Angabe des Bedarfs oder Chance]
-| ist das  | [Produktname]
-| eine  | [Produktkategorie]
-| der / die | [Aussage zum Hauptvorteil / Alleinstellungsmerkmal]
-| anders als | [wesentliche Lösungsalternative]
-| kann unser Produkt | [Aussage zum Hauptunterschied]
+| Für | kleine Cocktailbar in der Neustadt
+| der / die | Cocktails auch Online versenden möchte
+| ist das  | Liefer Colada
+| ein  | Onlineshop
+| der / die | das Barfeeling für zu Hause bietet und den Kunden vor einer möglichen Pandemie absichert
+| anders als | nur Lokalverkauf
+| kann unser Produkt | jeden erreichen
 |===
 
 
@@ -67,6 +67,9 @@ Siehe <<#glossary, Glossar>>.
 | [Benennung des Stakeholders (als Rolle)]
 | [Kurze Beschreibung des Stakeholders und seiner Ziele]
 | [Fassen Sie die wesentlichen Verantwortlichkeiten des Stakeholder mit Bezug auf das zu entwickelnde System kurz zusammen, d.h. ihr besonderen Interessen. Beispiele: Dieser Stakeholder sorgt dafür, dass das System gewartet wird / dass die angezeigten Daten aktuell sind / überwacht den Projektfortschritt / usw.]
+| Kunde | Inhaber der kleinen Bar und er möchte seine Cocktails allen verfügbar machen und deshalb seine Cocktails auch außerhalb der Bar verkaufen | Gibt uns Vorgaben für den Seitenaufbau und finanziert unser Projekt
+| Nutzer | will auch außerhalb der Bar seine Lieblingscocktails trinken und eigene Kreationen erstellen | soll nicht durch technische Probleme abgeschreckt werden; nutzt das System
+| Gesetzgeber | nervt... | gibt Rahmenbedingungen; überprüft Datenschutz, Datensicherheit, AGBs
 |===
 
 Die Verfeinerung der Stakeholder, die das System benutzen, wird im UX-Konzept mittels Personas vorgenommen.
