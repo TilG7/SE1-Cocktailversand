@@ -1,0 +1,26 @@
+@startuml example-c4-modell-diagram
+' source: https://github.com/plantuml-stdlib/C4-PlantUML
+' C4 Model
+!include <c4/C4_Context.puml>
+
+' Images
+!include <office/Users/user.puml>
+!include <office/Users/mobile_user.puml>
+
+' Diagram title
+title \nSystem Context diagram for Internet Banking System\n
+
+' Diagram syntax
+Person(customer, Customer, "<$user> <$mobile_user>\n A customer of the Barshop, who wants to order Cocktails online, because he is alcoholic")
+
+Enterprise_Boundary(c0, "Liefer Colada") {
+  System(ordering_system, "Ordering System", "Allows customers to choose their favourite drinks and put them in the shopping cart")
+  System_Ext(customize_system, "E-mail system", "Allows customers to create their own drinks and put them in the shopping cart")
+  System_Ext(Database, "Database", "Stores all of the information about customers, drinks, transactiones, etc.")
+
+  Rel(customer, ordering_system, "Uses")
+  Rel(customer, customize_system, "Uses")
+  Rel(ordering_system, Database, "get Data")
+  Rel(customize_system, Database, "Uses")
+}
+@enduml

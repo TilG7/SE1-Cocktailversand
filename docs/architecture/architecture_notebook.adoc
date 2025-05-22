@@ -42,7 +42,12 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 //[Describe the architectural views that you will use to describe the software architecture. This illustrates the different perspectives that you will make available to review and to document architectural decisions.]
 
 === Kontextabgrenzung
-//Level 1 im C4-Modell
+
+.Test
+[plantuml, "{diagramsdir}/c4-model-diagram", svg]
+....
+include::{plantumlsdir}/c4-model-diagram.puml[]
+....
 
 === Container
 //Level 2 im C4-Modell
